@@ -83,6 +83,8 @@ body {
 
 .button-lg {
   border: none;
+  width: 140px;
+  height: 38px;
   background-color: #096324;
   color: #ffffff;
   font-size: 18px;
