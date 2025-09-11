@@ -15,7 +15,6 @@ const config: FusionAuthProviderConfig = {
   serverUrl: 'https://fusionauth.rudedawg-integration.com',
   shouldAutoFetchUserInfo: true,
   shouldAutoRefresh: true,
-  autoRefreshSecondsBeforeExpiry: 120,
   onRedirect: (state?: string) => {
     console.log(`Redirect happened with state value: ${state}`);
   },
